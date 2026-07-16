@@ -55,5 +55,7 @@ var lst = db.Staffs.ToList();
 AppDbContext db2 = new AppDbContext();
 var lst2 = db2.TblStaffs.ToList();
 var lst3 = db2.TblStudents.ToList();
+//var lst4 = db2.TblProducts.ToList();
+var lst5 = db2.TblEmployees.ToList();
 
 Console.ReadLine();

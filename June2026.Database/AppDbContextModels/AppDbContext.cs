@@ -15,6 +15,8 @@ public partial class AppDbContext : DbContext
     {
     }
 
+    public virtual DbSet<TblEmployee> TblEmployees { get; set; }
+
     public virtual DbSet<TblStaff> TblStaffs { get; set; }
 
     public virtual DbSet<TblStudent> TblStudents { get; set; }
@@ -25,6 +27,17 @@ public partial class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<TblEmployee>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Tbl_Empl__3214EC07DD76F8B4");
+
+            entity.ToTable("Tbl_Employee");
+
+            entity.Property(e => e.FullName).HasMaxLength(100);
+            entity.Property(e => e.Position).HasMaxLength(50);
+            entity.Property(e => e.Salary).HasColumnType("decimal(10, 2)");
+        });
+
         modelBuilder.Entity<TblStaff>(entity =>
         {
             entity.HasKey(e => e.StaffId);
