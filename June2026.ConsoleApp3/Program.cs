@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using June2026.ConsoleApp3;
+using June2026.Database.AppDbContextModels;
 
 Console.WriteLine("Hello, World!");
 
-AppDbContext db = new AppDbContext();
+June2026AppDbContext db = new June2026AppDbContext();
 
 
 var lst = db.Staffs.ToList();
@@ -39,16 +40,20 @@ var lst = db.Staffs.ToList();
 //    db.SaveChanges();
 //}
 
-var staff4 = db.Staffs.Where(x =>x.Id == 3).FirstOrDefault();
-if (staff4 is null)
-{
-    Console.WriteLine("Staff not found.");
-    return;
-}
-else
-{ 
-    db.Staffs.Remove(staff4);
-    db.SaveChanges();
-}
+//var staff4 = db.Staffs.Where(x =>x.Id == 3).FirstOrDefault();
+//if (staff4 is null)
+//{
+//    Console.WriteLine("Staff not found.");
+//    return;
+//}
+//else
+//{ 
+//    db.Staffs.Remove(staff4);
+//    db.SaveChanges();
+//}
+
+AppDbContext db2 = new AppDbContext();
+var lst2 = db2.TblStaffs.ToList();
+var lst3 = db2.TblStudents.ToList();
 
 Console.ReadLine();

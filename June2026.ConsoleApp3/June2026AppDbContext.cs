@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace June2026.ConsoleApp3
 {
-    public class AppDbContext : DbContext
+    public class June2026AppDbContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
