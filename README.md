@@ -14,3 +14,6 @@ CRUD using Dapper.
 
 ### June2026.ConsoleApp3
 CRUD using Entity Framework Core.
+
+### June2026.EFCoreAssignment
+Assignment for testing Scaffold
