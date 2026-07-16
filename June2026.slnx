@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="June2026.ConsoleApp1/June2026.ConsoleApp1.csproj" />
   <Project Path="June2026.ConsoleApp2/June2026.ConsoleApp2.csproj" Id="e54fb1c9-bbd1-4f4e-aa00-e7ec48bf2d8c" />
+  <Project Path="June2026.ConsoleApp3/June2026.ConsoleApp3.csproj" Id="5bcb266f-1eb6-43b6-89ae-11a336b36d80" />
+  <Project Path="June2026.Database/June2026.Database.csproj" Id="96e9edcf-58f9-422c-8bf0-912b44c3df5a" />
 </Solution>
