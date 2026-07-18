@@ -5,4 +5,5 @@
   <Project Path="June2026.Database/June2026.Database.csproj" Id="96e9edcf-58f9-422c-8bf0-912b44c3df5a" />
   <Project Path="June2026.EFCoreAssignment.Database/June2026.EFCoreAssignment.Database.csproj" Id="95480de1-4d24-4862-960c-bba0c9526a32" />
   <Project Path="June2026.EFCoreAssignment/June2026.EFCoreAssignment.csproj" Id="44650e06-69d4-40e7-acff-804c83f71755" />
+  <Project Path="June2026.WinFormsApp1/June2026.WinFormsApp1.csproj" Id="59a6bf73-0682-4a18-a87c-74e644ebad23" />
 </Solution>
