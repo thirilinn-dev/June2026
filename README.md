@@ -17,3 +17,6 @@ CRUD using Entity Framework Core.
 
 ### June2026.EFCoreAssignment
 Assignment for testing Scaffold
+
+### June2026.WinFormsApp1
+Windows Forms CRUD
